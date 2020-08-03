@@ -12,13 +12,13 @@
       <div class="col s2"></div>
       <div class="col s8">
         <h1>We Need Data to Improve Healthcare Processes at Scale</h1>
-        <p>
+        <p class="flow-text">
         <i>Note: the fictitious examples and diagrams are for illustrative purposes ONLY.
         They are mainly simplifications of real phenomena.
         Please consult with your physician if you have any questions.</i>
-        <p>
+        <p class="flow-text">
 
-        <p>
+        <p class="flow-text">
         <b>Scale is one of the main challenges in public health services</b>. Specialized treatments 
         are hard to track when applied to thousands of patients. Fortunately, we can now identify 
         bottlenecks and errors in the flow of these processes at scale. Through the combination 
@@ -27,18 +27,18 @@
         task connections, and task pruning.
         </p>
 
-        <p>Process modeling helps structure a series of steps to perform a task.</p>
+        <p class="flow-text">Process modeling helps structure a series of steps to perform a task.</p>
 
         <img class="responsive-img" src="assets/img/1.jpg"></img>
 
-        <p>
+        <p class="flow-text">
         In the real world, tasks can run in parallel or series. Processes can have loops, 
         divergent and convergent paths, and unnecessary steps.
         </p>
 
         <img class="responsive-img" src="assets/img/2.jpg"></img>
 
-        <p>
+        <p class="flow-text">
         <b>Process modeling discovers such complexities and improves upon them. </b>
         Improving our process models is important since the main objective of stratified healthcare 
         and precision medicine is to achieve an individual, precise and complete treatment 
@@ -47,7 +47,7 @@
         individual patients through personalized treatments.
         </p>
 
-        <p>
+        <p class="flow-text">
         Personalized treatments are a reality, thanks to the Human Genome Project. 
         The Human Genome Project demonstrates that no human is made the same. Therefore, 
         prescriptions and treatments cause different reactions in each individual. 
@@ -55,7 +55,7 @@
         However, this method is not perfect.
         </p>
 
-        <p>
+        <p class="flow-text">
         While processes in health go through rigorous statistical tests, 
         they are by no means rid of bias. This bias can impact the flow of steps 
         or parallelism that could be applied to optimize positive outcomes or the speed of 
@@ -65,14 +65,14 @@
         consumes a lot of time.
         </p>
 
-        <p>
+        <p class="flow-text">
         For example, imagine we currently have these personalized brain imaging 
         processes for 5 patients with a brain tumor:
         </p>
 
         <img class="responsive-img" src="assets/img/3.jpg"></img>
 
-        <p>
+        <p class="flow-text">
         Let's say we have a new technology called BrainImagingx2, which scans 
         a patient's tumor size two times faster than the current brain imaging technology, 
         but it's only precise for patients that can handle both MRI and CT scans periodically:
@@ -80,7 +80,7 @@
 
         <img class="responsive-img" src="assets/img/4.jpg"></img>
 
-        <p>
+        <p class="flow-text">
         Naturally, we want to update our 5 model processes. This might be easy to do since 
         we're dealing with only 5 patients at this time. We can review each case manually 
         to evaluate the risk of updating the process model and weigh it against the benefit:
@@ -88,7 +88,7 @@
 
         <img class="responsive-img" src="assets/img/5.jpg"></img>
 
-        <p>
+        <p class="flow-text">
         But what happens if suddenly our 5 patients turn into 1,000 different and 
         unique patients, each with their medical history and background? The cost of 
         evaluating each process model manually skyrockets. Even worse, maybe one of our 1,000 
@@ -100,7 +100,7 @@
         processes modeled increase with scale.
         </p>
 
-        <p>
+        <p class="flow-text">
         <b>Process mining achieves an automated "understanding" of the processes through 
         the analysis of event logs and expert reviews to approximate processes. </b>
         Rather than attempting to update existing models, it builds models from the data it 
@@ -114,7 +114,7 @@
         like we discussed as a fact through the breakthrough of the Human Genome Project.
         </p>
 
-        <p>
+        <p class="flow-text">
         Another limitation to take into account is that this is an automated method 
         that relies on data, and the quality of the process models exported is directly related 
         to the quality of the information it is fed. The combined data of patients around 
@@ -129,7 +129,7 @@
         <img class="responsive-img" src="assets/img/6.jpg"></img>
         Source: https://www.apadivisions.org/division-31/publications/records/intake
 
-        <p>
+        <p class="flow-text">
         We can combine Process Modelling, namely Process Mining, with Probabilistic Modelling 
         to better mitigate these issues. Probabilistic modeling takes uncertainty into account, 
         treating it as noise. A probabilistic model gives a distribution of possible outcomes. 
@@ -139,7 +139,7 @@
 
         <img class="responsive-img" src="assets/img/7.jpg"></img>
 
-        <p>
+        <p class="flow-text">
         Probabilistic Modelling assumes a relationship between the outcome and the independent 
         variable, however, this is something that needs to be proven. Correlation coefficients 
         and regression analysis are used to perform hypothesis tests. While correlation measures 
@@ -149,7 +149,7 @@
         to make inferences based on these models.
         </p>
 
-        <p>
+        <p class="flow-text">
         To combine both Process Modelling and Probabilistic Modelling, we can represent similar 
         healthcare processes through a single diagram, which is the result of grouping similar 
         patient task histories. In this diagram, each state transitions to multiple states. Each 
@@ -159,7 +159,7 @@
 
         <img class="responsive-img" src="assets/img/8.jpg"></img>
 
-        <p>
+        <p class="flow-text">
         Additionally, statistical methods probability distribution fitting can be used to find 
         the distribution that best fits the process modeled. Some examples of these distributions 
         include the Poisson distribution for discrete variables like the task of vaccinating a patient 
@@ -172,7 +172,7 @@
         processes that matter in healthcare.
         </p>
 
-        <p>
+        <p class="flow-text">
         Some of the latest applications of Probability Modelling in Process Modelling include 
         dealing with invisible prime tasks through rules and equations utilizing the probability 
         of state transition of Coupled Hidden Markov and double time-stamped in event logs. Invisible 
@@ -185,7 +185,7 @@
 
         <img class="responsive-img" src="assets/img/9.jpg"></img>
 
-        <p>
+        <p class="flow-text">
         New learning methods for process mining based on probability modeling include using a logistic 
         regression model for the discovery of direct connections between events in event logs 
         with noise. (Maruster et al., 2002) Logistic regression addresses noise by treating the occurrence 
@@ -196,7 +196,7 @@
         assessment if needed.
         </p>
 
-        <p>
+        <p class="flow-text">
         There's a classic machine learning example that illustrates the limitations of using probabilistic 
         methods in process mining: you can't say a cancer test classifier is good enough if it predicts 
         that someone doesn't have cancer 90% of the time. This applies to models learned through 
@@ -213,7 +213,7 @@
 
         <img class="responsive-img" src="assets/img/10.jpg"></img>
 
-        <p>
+        <p class="flow-text">
         <b>Does correlation imply prediction?</b> The relationships found between the components of a process 
         diagram may not be true, they may as well be false negatives. For example, if you find two consecutive 
         event logs for a patient where one is the patient taking medication and the next one is the sickness 
@@ -225,7 +225,7 @@
         than its immediate predecessor.
         </p>
 
-        <p>
+        <p class="flow-text">
         <b>Health information is highly sensible.</b> It is a snapshot of the user's medical, pathological, 
         nutritional, and psychological history. In a world surrounded by taboos for mental illness and HIV, 
         this information needs to be handled with utmost care. Patients are served so that their information 
@@ -234,7 +234,7 @@
 
         <img class="responsive-img" src="assets/img/11.jpg"></img>
 
-        <p>
+        <p class="flow-text">
         Process Modelling and Probabilistic Modelling methods aggregate from individual cases to 
         generalize and personalize during treatments when needed. <b> No matter how promising the results look, 
         we need to understand the potential edge cases and caveats of the methods used. </b>For example, the 
